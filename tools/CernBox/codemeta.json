@@ -6,19 +6,19 @@
   ],
 
   "@type": "SoftwareSourceCode",
-  "name": "CernBox",
-  "description": "Tool to send files to a CERNBox user.",
+  "name": "CERNBox",
+  "description": "Tool to send data to a CERNBox user. Requires login with MyAccessId.",
   "version": "v0",
   "applicationCategory": "data access",
 
   "isSourceCodeOf": [
     {
       "@type": "WebAPI",
-      "name": "CernBox",
+      "name": "CERNBox",
 
       "endpointUrl": {
         "@type": "EntryPoint",
-        "url": "https://cernbox.cern.ch/",
+        "url": "https://eosc.cernbox.cern.ch/",
         "contentType": "application/json"
       },
 
